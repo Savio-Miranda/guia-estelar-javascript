@@ -11,25 +11,34 @@
             <fieldset>
                 <legend>Contato</legend>
                 
-                <label>Nome</label>
+                <label for="name">Nome</label> <!-- Label precisa estar conectado a um id... -->
                 <div>
                     <input
+                    id="name"
+                    name="name"
                     type="text"
                     size="21">
                 </div>
                 <br>
                 
-                <label>Email</label>
+                <label for="email">Email</label>
                 <div>
                     <input
+                    id="email"
+                    name="email"
                     type="email"
                     size="21">
                 </div>
                 <br>
 
-                <label>Mensagem</label>
+                <label for="msg">Mensagem</label>
                 <div>
-                    <textarea name="mensagem" id="msg" cols="20" rows="8"></textarea>
+                    <textarea
+                        name="msg"
+                        id="msg"
+                        cols="20"
+                        rows="8">
+                    </textarea>
                 </div>
                 <br>
 
